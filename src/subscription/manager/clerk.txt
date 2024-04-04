@@ -1,0 +1,841 @@
+C:\Users\robrrrto\.jdks\openjdk-21.0.1-1\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2023.2.2\lib\idea_rt.jar=52983:C:\Program Files\JetBrains\IntelliJ IDEA 2023.2.2\bin" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath "C:\Users\robrrrto\OneDrive - Newcastle University\CSC8012_SoftDevTools\CSC8012_summativeCW\CSC8012_summativeCW\out\production\CSC8012_summativeCW" CSC8012_SummativeCoursework.MainProgram
+Welcome to the FrozenFood company subscription management program!
+-------------------------------------------------------------------------------------------
+Choose one of the operations displayed below:
+f - finish running the program
+m - display information about all the meals
+s - display information about all the subscribers
+a - update the stored data, add meals to a registered subscriber's subscription
+r - update the stored data, remove meals from a registered subscriber's subscription
+-------------------------------------------------------------------------------------------
+s
+Information about all the subscribers:
+
+Full name: Anna Jones
+Subscriptions: none
+
+Full name: Anna Smith
+Subscriptions: none
+
+Full name: Carl Smith
+Subscriptions: none
+
+Full name: Ted Smith
+Subscriptions: none
+
+-------------------------------------------------------------------------------------------
+Choose one of the operations displayed below:
+f - finish running the program
+m - display information about all the meals
+s - display information about all the subscribers
+a - update the stored data, add meals to a registered subscriber's subscription
+r - update the stored data, remove meals from a registered subscriber's subscription
+-------------------------------------------------------------------------------------------
+m
+Information about all the meals and their availability:
+
+Meal type: Chilli
+Number available: 6
+
+Meal type: Curry
+Number available: 2
+
+Meal type: Fish
+Number available: 8
+
+Meal type: Lasagne
+Number available: 8
+
+Meal type: Mushroom Stew
+Number available: 4
+
+Meal type: Spaghetti
+Number available: 5
+
+Meal type: Steak
+Number available: 11
+
+-------------------------------------------------------------------------------------------
+Choose one of the operations displayed below:
+f - finish running the program
+m - display information about all the meals
+s - display information about all the subscribers
+a - update the stored data, add meals to a registered subscriber's subscription
+r - update the stored data, remove meals from a registered subscriber's subscription
+-------------------------------------------------------------------------------------------
+a
+Please type the full name of a registered subscriber separated by space and press enter:
+Ted Smith
+Type the name of the meal type you would like to add and press enter:
+Curry
+Type the number of Curry meals you would like to add to subscription and press enter:
+2
+The Curry meal (number of meals: 2) was added to Ted Smith's subscription.
+-------------------------------------------------------------------------------------------
+Choose one of the operations displayed below:
+f - finish running the program
+m - display information about all the meals
+s - display information about all the subscribers
+a - update the stored data, add meals to a registered subscriber's subscription
+r - update the stored data, remove meals from a registered subscriber's subscription
+-------------------------------------------------------------------------------------------
+a
+Please type the full name of a registered subscriber separated by space and press enter:
+Carl Smith
+Type the name of the meal type you would like to add and press enter:
+Steak
+Type the number of Steak meals you would like to add to subscription and press enter:
+1
+The Steak meal (number of meals: 1) was added to Carl Smith's subscription.
+-------------------------------------------------------------------------------------------
+Choose one of the operations displayed below:
+f - finish running the program
+m - display information about all the meals
+s - display information about all the subscribers
+a - update the stored data, add meals to a registered subscriber's subscription
+r - update the stored data, remove meals from a registered subscriber's subscription
+-------------------------------------------------------------------------------------------
+a
+Please type the full name of a registered subscriber separated by space and press enter:
+Anna Jones
+Type the name of the meal type you would like to add and press enter:
+Mushroom Stew
+Type the number of Mushroom Stew meals you would like to add to subscription and press enter:
+3
+The Mushroom Stew meal (number of meals: 3) was added to Anna Jones's subscription.
+-------------------------------------------------------------------------------------------
+Choose one of the operations displayed below:
+f - finish running the program
+m - display information about all the meals
+s - display information about all the subscribers
+a - update the stored data, add meals to a registered subscriber's subscription
+r - update the stored data, remove meals from a registered subscriber's subscription
+-------------------------------------------------------------------------------------------
+a
+Please type the full name of a registered subscriber separated by space and press enter:
+Ted Smith
+Type the name of the meal type you would like to add and press enter:
+Steak
+Type the number of Steak meals you would like to add to subscription and press enter:
+1
+The Steak meal (number of meals: 1) was added to Ted Smith's subscription.
+-------------------------------------------------------------------------------------------
+Choose one of the operations displayed below:
+f - finish running the program
+m - display information about all the meals
+s - display information about all the subscribers
+a - update the stored data, add meals to a registered subscriber's subscription
+r - update the stored data, remove meals from a registered subscriber's subscription
+-------------------------------------------------------------------------------------------
+s
+Information about all the subscribers:
+
+Full name: Anna Jones
+Subscriptions:
+1. Meal type: Mushroom Stew, number of meals: 3
+
+Full name: Anna Smith
+Subscriptions: none
+
+Full name: Carl Smith
+Subscriptions:
+1. Meal type: Steak, number of meals: 1
+
+Full name: Ted Smith
+Subscriptions:
+1. Meal type: Curry, number of meals: 2
+2. Meal type: Steak, number of meals: 1
+
+-------------------------------------------------------------------------------------------
+Choose one of the operations displayed below:
+f - finish running the program
+m - display information about all the meals
+s - display information about all the subscribers
+a - update the stored data, add meals to a registered subscriber's subscription
+r - update the stored data, remove meals from a registered subscriber's subscription
+-------------------------------------------------------------------------------------------
+a
+Please type the full name of a registered subscriber separated by space and press enter:
+Anna Jones
+Type the name of the meal type you would like to add and press enter:
+Curry
+Type the number of Curry meals you would like to add to subscription and press enter:
+1
+The number of Curry meals you would like to add (1) exceeds the number of Curry meals currently available (0).
+Operation was unsuccessful, no changes have been made to subscriptions.
+You can find an apology letter in the "letters.txt" file after you finish running this program.
+-------------------------------------------------------------------------------------------
+Choose one of the operations displayed below:
+f - finish running the program
+m - display information about all the meals
+s - display information about all the subscribers
+a - update the stored data, add meals to a registered subscriber's subscription
+r - update the stored data, remove meals from a registered subscriber's subscription
+-------------------------------------------------------------------------------------------
+r
+Please type the full name of a registered subscriber separated by space and press enter:
+Ted Smith
+Type the name of the meal type you would like to remove from the subscription and press enter:
+1
+Meal type "1" doesn't exist. You have 2 more chance(s)
+Type the name of the meal type you would like to remove from the subscription and press enter:
+s
+Meal type "s" doesn't exist. You have 1 more chance(s)
+Type the name of the meal type you would like to remove from the subscription and press enter:
+Curry
+Type the number of Curry meals you would like to remove from the subscription and press enter:
+1
+The Curry meal (number of meals: 1) was removed from Ted Smith's subscription.
+-------------------------------------------------------------------------------------------
+Choose one of the operations displayed below:
+f - finish running the program
+m - display information about all the meals
+s - display information about all the subscribers
+a - update the stored data, add meals to a registered subscriber's subscription
+r - update the stored data, remove meals from a registered subscriber's subscription
+-------------------------------------------------------------------------------------------
+s
+Information about all the subscribers:
+
+Full name: Anna Jones
+Subscriptions:
+1. Meal type: Mushroom Stew, number of meals: 3
+
+Full name: Anna Smith
+Subscriptions: none
+
+Full name: Carl Smith
+Subscriptions:
+1. Meal type: Steak, number of meals: 1
+
+Full name: Ted Smith
+Subscriptions:
+1. Meal type: Curry, number of meals: 1
+2. Meal type: Steak, number of meals: 1
+
+-------------------------------------------------------------------------------------------
+Choose one of the operations displayed below:
+f - finish running the program
+m - display information about all the meals
+s - display information about all the subscribers
+a - update the stored data, add meals to a registered subscriber's subscription
+r - update the stored data, remove meals from a registered subscriber's subscription
+-------------------------------------------------------------------------------------------
+m
+Information about all the meals and their availability:
+
+Meal type: Chilli
+Number available: 6
+
+Meal type: Curry
+Number available: 1
+
+Meal type: Fish
+Number available: 8
+
+Meal type: Lasagne
+Number available: 8
+
+Meal type: Mushroom Stew
+Number available: 1
+
+Meal type: Spaghetti
+Number available: 5
+
+Meal type: Steak
+Number available: 9
+
+-------------------------------------------------------------------------------------------
+Choose one of the operations displayed below:
+f - finish running the program
+m - display information about all the meals
+s - display information about all the subscribers
+a - update the stored data, add meals to a registered subscriber's subscription
+r - update the stored data, remove meals from a registered subscriber's subscription
+-------------------------------------------------------------------------------------------
+a
+Please type the full name of a registered subscriber separated by space and press enter:
+Anna Smith
+Type the name of the meal type you would like to add and press enter:
+Curry
+Type the number of Curry meals you would like to add to subscription and press enter:
+3
+The number of Curry meals you would like to add (3) exceeds the number of Curry meals currently available (1).
+Operation was unsuccessful, no changes have been made to subscriptions.
+You can find an apology letter in the "letters.txt" file after you finish running this program.
+-------------------------------------------------------------------------------------------
+Choose one of the operations displayed below:
+f - finish running the program
+m - display information about all the meals
+s - display information about all the subscribers
+a - update the stored data, add meals to a registered subscriber's subscription
+r - update the stored data, remove meals from a registered subscriber's subscription
+-------------------------------------------------------------------------------------------
+a
+Please type the full name of a registered subscriber separated by space and press enter:
+Anna Smith
+Type the name of the meal type you would like to add and press enter:
+1
+Meal type "1" doesn't exist. You have 2 more chance(s)
+Type the name of the meal type you would like to add and press enter:
+Curry
+Type the number of Curry meals you would like to add to subscription and press enter:
+1
+The Curry meal (number of meals: 1) was added to Anna Smith's subscription.
+-------------------------------------------------------------------------------------------
+Choose one of the operations displayed below:
+f - finish running the program
+m - display information about all the meals
+s - display information about all the subscribers
+a - update the stored data, add meals to a registered subscriber's subscription
+r - update the stored data, remove meals from a registered subscriber's subscription
+-------------------------------------------------------------------------------------------
+r
+Please type the full name of a registered subscriber separated by space and press enter:
+Ted Smith
+Type the name of the meal type you would like to remove from the subscription and press enter:
+Curry
+Type the number of Curry meals you would like to remove from the subscription and press enter:
+5
+The quantity of meals you want to remove (5) exceeds the number of meals Ted Smith is subscribed to (1). You have 2 more chance(s)
+Type the number of Curry meals you would like to remove from the subscription and press enter:
+0
+The number of meals you would like to add needs to be greater than 0. You have 2 more chance(s)
+Type the number of Curry meals you would like to remove from the subscription and press enter:
+1
+The Curry meal (number of meals: 1) was removed from Ted Smith's subscription.
+-------------------------------------------------------------------------------------------
+Choose one of the operations displayed below:
+f - finish running the program
+m - display information about all the meals
+s - display information about all the subscribers
+a - update the stored data, add meals to a registered subscriber's subscription
+r - update the stored data, remove meals from a registered subscriber's subscription
+-------------------------------------------------------------------------------------------
+s
+Information about all the subscribers:
+
+Full name: Anna Jones
+Subscriptions:
+1. Meal type: Mushroom Stew, number of meals: 3
+
+Full name: Anna Smith
+Subscriptions:
+1. Meal type: Curry, number of meals: 1
+
+Full name: Carl Smith
+Subscriptions:
+1. Meal type: Steak, number of meals: 1
+
+Full name: Ted Smith
+Subscriptions:
+1. Meal type: Steak, number of meals: 1
+
+-------------------------------------------------------------------------------------------
+Choose one of the operations displayed below:
+f - finish running the program
+m - display information about all the meals
+s - display information about all the subscribers
+a - update the stored data, add meals to a registered subscriber's subscription
+r - update the stored data, remove meals from a registered subscriber's subscription
+-------------------------------------------------------------------------------------------
+a
+Please type the full name of a registered subscriber separated by space and press enter:
+Anna Smith
+Type the name of the meal type you would like to add and press enter:
+Fish
+Type the number of Fish meals you would like to add to subscription and press enter:
+4
+The Fish meal (number of meals: 4) was added to Anna Smith's subscription.
+-------------------------------------------------------------------------------------------
+Choose one of the operations displayed below:
+f - finish running the program
+m - display information about all the meals
+s - display information about all the subscribers
+a - update the stored data, add meals to a registered subscriber's subscription
+r - update the stored data, remove meals from a registered subscriber's subscription
+-------------------------------------------------------------------------------------------
+s
+Information about all the subscribers:
+
+Full name: Anna Jones
+Subscriptions:
+1. Meal type: Mushroom Stew, number of meals: 3
+
+Full name: Anna Smith
+Subscriptions:
+1. Meal type: Curry, number of meals: 1
+2. Meal type: Fish, number of meals: 4
+
+Full name: Carl Smith
+Subscriptions:
+1. Meal type: Steak, number of meals: 1
+
+Full name: Ted Smith
+Subscriptions:
+1. Meal type: Steak, number of meals: 1
+
+-------------------------------------------------------------------------------------------
+Choose one of the operations displayed below:
+f - finish running the program
+m - display information about all the meals
+s - display information about all the subscribers
+a - update the stored data, add meals to a registered subscriber's subscription
+r - update the stored data, remove meals from a registered subscriber's subscription
+-------------------------------------------------------------------------------------------
+a
+Please type the full name of a registered subscriber separated by space and press enter:
+Anna Smith
+Type the name of the meal type you would like to add and press enter:
+Steak
+Type the number of Steak meals you would like to add to subscription and press enter:
+1
+The Steak meal (number of meals: 1) was added to Anna Smith's subscription.
+-------------------------------------------------------------------------------------------
+Choose one of the operations displayed below:
+f - finish running the program
+m - display information about all the meals
+s - display information about all the subscribers
+a - update the stored data, add meals to a registered subscriber's subscription
+r - update the stored data, remove meals from a registered subscriber's subscription
+-------------------------------------------------------------------------------------------
+a
+Please type the full name of a registered subscriber separated by space and press enter:
+Anna Smith
+Type the name of the meal type you would like to add and press enter:
+Mushroom Stew
+Type the number of Mushroom Stew meals you would like to add to subscription and press enter:
+2
+Subscription cannot be added.
+Each subscriber is allowed to subscribe to a maximum of 3 different meal types and subscriber "Anna Smith" has already reached that limit.
+Operation was unsuccessful, no changes have been made to subscriptions.
+-------------------------------------------------------------------------------------------
+Choose one of the operations displayed below:
+f - finish running the program
+m - display information about all the meals
+s - display information about all the subscribers
+a - update the stored data, add meals to a registered subscriber's subscription
+r - update the stored data, remove meals from a registered subscriber's subscription
+-------------------------------------------------------------------------------------------
+s
+Information about all the subscribers:
+
+Full name: Anna Jones
+Subscriptions:
+1. Meal type: Mushroom Stew, number of meals: 3
+
+Full name: Anna Smith
+Subscriptions:
+1. Meal type: Curry, number of meals: 1
+2. Meal type: Fish, number of meals: 4
+3. Meal type: Steak, number of meals: 1
+
+Full name: Carl Smith
+Subscriptions:
+1. Meal type: Steak, number of meals: 1
+
+Full name: Ted Smith
+Subscriptions:
+1. Meal type: Steak, number of meals: 1
+
+-------------------------------------------------------------------------------------------
+Choose one of the operations displayed below:
+f - finish running the program
+m - display information about all the meals
+s - display information about all the subscribers
+a - update the stored data, add meals to a registered subscriber's subscription
+r - update the stored data, remove meals from a registered subscriber's subscription
+-------------------------------------------------------------------------------------------
+m
+Information about all the meals and their availability:
+
+Meal type: Chilli
+Number available: 6
+
+Meal type: Curry
+Number available: 1
+
+Meal type: Fish
+Number available: 4
+
+Meal type: Lasagne
+Number available: 8
+
+Meal type: Mushroom Stew
+Number available: 1
+
+Meal type: Spaghetti
+Number available: 5
+
+Meal type: Steak
+Number available: 8
+
+-------------------------------------------------------------------------------------------
+Choose one of the operations displayed below:
+f - finish running the program
+m - display information about all the meals
+s - display information about all the subscribers
+a - update the stored data, add meals to a registered subscriber's subscription
+r - update the stored data, remove meals from a registered subscriber's subscription
+-------------------------------------------------------------------------------------------
+a
+Please type the full name of a registered subscriber separated by space and press enter:
+Ted Smith
+Type the name of the meal type you would like to add and press enter:
+Spaghetti
+Type the number of Spaghetti meals you would like to add to subscription and press enter:
+3
+The Spaghetti meal (number of meals: 3) was added to Ted Smith's subscription.
+-------------------------------------------------------------------------------------------
+Choose one of the operations displayed below:
+f - finish running the program
+m - display information about all the meals
+s - display information about all the subscribers
+a - update the stored data, add meals to a registered subscriber's subscription
+r - update the stored data, remove meals from a registered subscriber's subscription
+-------------------------------------------------------------------------------------------
+a
+Please type the full name of a registered subscriber separated by space and press enter:
+Anna Jones
+Type the name of the meal type you would like to add and press enter:
+Spaghetti
+Type the number of Spaghetti meals you would like to add to subscription and press enter:
+5
+The number of Spaghetti meals you would like to add (5) exceeds the number of Spaghetti meals currently available (2).
+Operation was unsuccessful, no changes have been made to subscriptions.
+You can find an apology letter in the "letters.txt" file after you finish running this program.
+-------------------------------------------------------------------------------------------
+Choose one of the operations displayed below:
+f - finish running the program
+m - display information about all the meals
+s - display information about all the subscribers
+a - update the stored data, add meals to a registered subscriber's subscription
+r - update the stored data, remove meals from a registered subscriber's subscription
+-------------------------------------------------------------------------------------------
+a
+Please type the full name of a registered subscriber separated by space and press enter:
+Anna Jones
+Type the name of the meal type you would like to add and press enter:
+Curry
+Type the number of Curry meals you would like to add to subscription and press enter:
+5
+The number of Curry meals you would like to add (5) exceeds the number of Curry meals currently available (1).
+Operation was unsuccessful, no changes have been made to subscriptions.
+You can find an apology letter in the "letters.txt" file after you finish running this program.
+-------------------------------------------------------------------------------------------
+Choose one of the operations displayed below:
+f - finish running the program
+m - display information about all the meals
+s - display information about all the subscribers
+a - update the stored data, add meals to a registered subscriber's subscription
+r - update the stored data, remove meals from a registered subscriber's subscription
+-------------------------------------------------------------------------------------------
+a
+Please type the full name of a registered subscriber separated by space and press enter:
+Anna Jones
+Type the name of the meal type you would like to add and press enter:
+Spaghetti 11
+Meal type "Spaghetti 11" doesn't exist. You have 2 more chance(s)
+Type the name of the meal type you would like to add and press enter:
+Spaghetti
+Type the number of Spaghetti meals you would like to add to subscription and press enter:
+11
+The number of Spaghetti meals you would like to add (11) exceeds the number of Spaghetti meals currently available (2).
+Operation was unsuccessful, no changes have been made to subscriptions.
+You can find an apology letter in the "letters.txt" file after you finish running this program.
+-------------------------------------------------------------------------------------------
+Choose one of the operations displayed below:
+f - finish running the program
+m - display information about all the meals
+s - display information about all the subscribers
+a - update the stored data, add meals to a registered subscriber's subscription
+r - update the stored data, remove meals from a registered subscriber's subscription
+-------------------------------------------------------------------------------------------
+a
+Please type the full name of a registered subscriber separated by space and press enter:
+Anna Smith
+Type the name of the meal type you would like to add and press enter:
+Spaghetti
+Type the number of Spaghetti meals you would like to add to subscription and press enter:
+2
+Subscription cannot be added.
+Each subscriber is allowed to subscribe to a maximum of 3 different meal types and subscriber "Anna Smith" has already reached that limit.
+Operation was unsuccessful, no changes have been made to subscriptions.
+-------------------------------------------------------------------------------------------
+Choose one of the operations displayed below:
+f - finish running the program
+m - display information about all the meals
+s - display information about all the subscribers
+a - update the stored data, add meals to a registered subscriber's subscription
+r - update the stored data, remove meals from a registered subscriber's subscription
+-------------------------------------------------------------------------------------------
+a
+Please type the full name of a registered subscriber separated by space and press enter:
+Anna Jones
+Type the name of the meal type you would like to add and press enter:
+Spaghetti
+Type the number of Spaghetti meals you would like to add to subscription and press enter:
+2
+The Spaghetti meal (number of meals: 2) was added to Anna Jones's subscription.
+-------------------------------------------------------------------------------------------
+Choose one of the operations displayed below:
+f - finish running the program
+m - display information about all the meals
+s - display information about all the subscribers
+a - update the stored data, add meals to a registered subscriber's subscription
+r - update the stored data, remove meals from a registered subscriber's subscription
+-------------------------------------------------------------------------------------------
+s
+Information about all the subscribers:
+
+Full name: Anna Jones
+Subscriptions:
+1. Meal type: Mushroom Stew, number of meals: 3
+2. Meal type: Spaghetti, number of meals: 2
+
+Full name: Anna Smith
+Subscriptions:
+1. Meal type: Curry, number of meals: 1
+2. Meal type: Fish, number of meals: 4
+3. Meal type: Steak, number of meals: 1
+
+Full name: Carl Smith
+Subscriptions:
+1. Meal type: Steak, number of meals: 1
+
+Full name: Ted Smith
+Subscriptions:
+1. Meal type: Steak, number of meals: 1
+2. Meal type: Spaghetti, number of meals: 3
+
+-------------------------------------------------------------------------------------------
+Choose one of the operations displayed below:
+f - finish running the program
+m - display information about all the meals
+s - display information about all the subscribers
+a - update the stored data, add meals to a registered subscriber's subscription
+r - update the stored data, remove meals from a registered subscriber's subscription
+-------------------------------------------------------------------------------------------
+m
+Information about all the meals and their availability:
+
+Meal type: Chilli
+Number available: 6
+
+Meal type: Curry
+Number available: 1
+
+Meal type: Fish
+Number available: 4
+
+Meal type: Lasagne
+Number available: 8
+
+Meal type: Mushroom Stew
+Number available: 1
+
+Meal type: Spaghetti
+Number available: 0
+
+Meal type: Steak
+Number available: 8
+
+-------------------------------------------------------------------------------------------
+Choose one of the operations displayed below:
+f - finish running the program
+m - display information about all the meals
+s - display information about all the subscribers
+a - update the stored data, add meals to a registered subscriber's subscription
+r - update the stored data, remove meals from a registered subscriber's subscription
+-------------------------------------------------------------------------------------------
+r
+Please type the full name of a registered subscriber separated by space and press enter:
+Carl Smith
+Type the name of the meal type you would like to remove from the subscription and press enter:
+202
+Meal type "202" doesn't exist. You have 2 more chance(s)
+Type the name of the meal type you would like to remove from the subscription and press enter:
+Steak
+Type the number of Steak meals you would like to remove from the subscription and press enter:
+1
+The Steak meal (number of meals: 1) was removed from Carl Smith's subscription.
+-------------------------------------------------------------------------------------------
+Choose one of the operations displayed below:
+f - finish running the program
+m - display information about all the meals
+s - display information about all the subscribers
+a - update the stored data, add meals to a registered subscriber's subscription
+r - update the stored data, remove meals from a registered subscriber's subscription
+-------------------------------------------------------------------------------------------
+s
+Information about all the subscribers:
+
+Full name: Anna Jones
+Subscriptions:
+1. Meal type: Mushroom Stew, number of meals: 3
+2. Meal type: Spaghetti, number of meals: 2
+
+Full name: Anna Smith
+Subscriptions:
+1. Meal type: Curry, number of meals: 1
+2. Meal type: Fish, number of meals: 4
+3. Meal type: Steak, number of meals: 1
+
+Full name: Carl Smith
+Subscriptions: none
+
+Full name: Ted Smith
+Subscriptions:
+1. Meal type: Steak, number of meals: 1
+2. Meal type: Spaghetti, number of meals: 3
+
+-------------------------------------------------------------------------------------------
+Choose one of the operations displayed below:
+f - finish running the program
+m - display information about all the meals
+s - display information about all the subscribers
+a - update the stored data, add meals to a registered subscriber's subscription
+r - update the stored data, remove meals from a registered subscriber's subscription
+-------------------------------------------------------------------------------------------
+m
+Information about all the meals and their availability:
+
+Meal type: Chilli
+Number available: 6
+
+Meal type: Curry
+Number available: 1
+
+Meal type: Fish
+Number available: 4
+
+Meal type: Lasagne
+Number available: 8
+
+Meal type: Mushroom Stew
+Number available: 1
+
+Meal type: Spaghetti
+Number available: 0
+
+Meal type: Steak
+Number available: 9
+
+-------------------------------------------------------------------------------------------
+Choose one of the operations displayed below:
+f - finish running the program
+m - display information about all the meals
+s - display information about all the subscribers
+a - update the stored data, add meals to a registered subscriber's subscription
+r - update the stored data, remove meals from a registered subscriber's subscription
+-------------------------------------------------------------------------------------------
+a
+Please type the full name of a registered subscriber separated by space and press enter:
+24 4-20-
+Subscriber "24 4-20-" doesn't exist. You have 2 more chance(s)
+Please type the full name of a registered subscriber separated by space and press enter:
+Carl Smith
+Type the name of the meal type you would like to add and press enter:
+Chilli
+Type the number of Chilli meals you would like to add to subscription and press enter:
+fskaj
+Your input must be a number. You have 2 more chance(s)
+Type the number of Chilli meals you would like to add to subscription and press enter:
+=as=a2
+Your input must be a number. You have 1 more chance(s)
+Type the number of Chilli meals you would like to add to subscription and press enter:
+10
+The number of Chilli meals you would like to add (10) exceeds the number of Chilli meals currently available (6).
+Operation was unsuccessful, no changes have been made to subscriptions.
+You can find an apology letter in the "letters.txt" file after you finish running this program.
+-------------------------------------------------------------------------------------------
+Choose one of the operations displayed below:
+f - finish running the program
+m - display information about all the meals
+s - display information about all the subscribers
+a - update the stored data, add meals to a registered subscriber's subscription
+r - update the stored data, remove meals from a registered subscriber's subscription
+-------------------------------------------------------------------------------------------
+a
+Please type the full name of a registered subscriber separated by space and press enter:
+Carl Smith
+Type the name of the meal type you would like to add and press enter:
+Chilli
+Type the number of Chilli meals you would like to add to subscription and press enter:
+6
+The Chilli meal (number of meals: 6) was added to Carl Smith's subscription.
+-------------------------------------------------------------------------------------------
+Choose one of the operations displayed below:
+f - finish running the program
+m - display information about all the meals
+s - display information about all the subscribers
+a - update the stored data, add meals to a registered subscriber's subscription
+r - update the stored data, remove meals from a registered subscriber's subscription
+-------------------------------------------------------------------------------------------
+m
+Information about all the meals and their availability:
+
+Meal type: Chilli
+Number available: 0
+
+Meal type: Curry
+Number available: 1
+
+Meal type: Fish
+Number available: 4
+
+Meal type: Lasagne
+Number available: 8
+
+Meal type: Mushroom Stew
+Number available: 1
+
+Meal type: Spaghetti
+Number available: 0
+
+Meal type: Steak
+Number available: 9
+
+-------------------------------------------------------------------------------------------
+Choose one of the operations displayed below:
+f - finish running the program
+m - display information about all the meals
+s - display information about all the subscribers
+a - update the stored data, add meals to a registered subscriber's subscription
+r - update the stored data, remove meals from a registered subscriber's subscription
+-------------------------------------------------------------------------------------------
+s
+Information about all the subscribers:
+
+Full name: Anna Jones
+Subscriptions:
+1. Meal type: Mushroom Stew, number of meals: 3
+2. Meal type: Spaghetti, number of meals: 2
+
+Full name: Anna Smith
+Subscriptions:
+1. Meal type: Curry, number of meals: 1
+2. Meal type: Fish, number of meals: 4
+3. Meal type: Steak, number of meals: 1
+
+Full name: Carl Smith
+Subscriptions:
+1. Meal type: Chilli, number of meals: 6
+
+Full name: Ted Smith
+Subscriptions:
+1. Meal type: Steak, number of meals: 1
+2. Meal type: Spaghetti, number of meals: 3
+
+-------------------------------------------------------------------------------------------
+Choose one of the operations displayed below:
+f - finish running the program
+m - display information about all the meals
+s - display information about all the subscribers
+a - update the stored data, add meals to a registered subscriber's subscription
+r - update the stored data, remove meals from a registered subscriber's subscription
+-------------------------------------------------------------------------------------------
+f
+Closing the program, see you later!
+
+Process finished with exit code 0
